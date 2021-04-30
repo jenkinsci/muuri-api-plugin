@@ -13,6 +13,7 @@
     <name>Muuri.js API plugin</name>
     <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
     <packaging>hpi</packaging>
+    <description>Jenkins plug-in that provides Muuri.js (https://muuri.dev).</description>
 
     <properties>
         <revision>0.9.3-1</revision>
