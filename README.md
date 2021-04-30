@@ -51,7 +51,7 @@ In order to use this JS library, add a maven dependency to your pom:
 Then you can use Muuri.js in your jelly files using the following snippet:
 
 ```html
-<st:adjunct includes="io.jenkins.plugins.popper2"/>
+<st:adjunct includes="io.jenkins.plugins.muuri"/>
 ```
 
 ## Contributing
