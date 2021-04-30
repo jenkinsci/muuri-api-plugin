@@ -1,4 +1,58 @@
-# Muuri.js Jenkins Plugin
+![GitHub](https://img.shields.io/github/license/jenkinsci/muuri-api-plugin)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/jenkinsci/muuri-api-plugin)
+![Open GitHub issues](https://img.shields.io/github/issues/jenkinsci/muuri-api-plugin)
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/jenkinsci/muuri-api-plugin/GitHub%20CI/master?label=GitHub%20CI)
+[![Build Status](https://ci.jenkins.io/buildStatus/icon?subject=Jenkins%20CI&job=Plugins%2Fmuuri-api-plugin%2Fmaster)](https://ci.jenkins.io/job/Plugins/job/muuri-api-plugin/job/master/)
+![Contributions](https://img.shields.io/badge/contributions-welcome-orange)
+![Jenkins Plugins](https://img.shields.io/jenkins/plugin/v/muuri-api?label=latest%20version)
+
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a id="muuri" href="#muuri" aria-hidden="true"><img src="https://muuri.dev/muuri-logo.svg" alt="Muuri" width="200" /></a>
+
+  <h1 align="center">Muuri.js Jenkins Plugin</h1>
+
+  <p align="center">
+    Jenkins plug-in that provides <a href="https://muuri.dev">Muuri.js</a>.
+    <br />
+    <a href="https://github.com/jenkinsci/muuri-api-plugin/blob/master/README.md"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/jenkinsci/muuri-api-plugin/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/jenkinsci/muuri-api-plugin/issues">Request Feature</a>
+  </p>
+</p>
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <ol>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
+
+## Usage
+
+In order to use this JS library, add a maven dependency to your pom:
+
+```xml
+<dependency>
+  <groupId>io.jenkins.plugins</groupId>
+  <artifactId>muuri-api</artifactId>
+  <version>[latest version]</version>
+</dependency>
+```
+
+Then you can use Muuri.js in your jelly files using the following snippet:
+
+```html
+<st:adjunct includes="io.jenkins.plugins.popper2"/>
+```
 
 ## Contributing
 
