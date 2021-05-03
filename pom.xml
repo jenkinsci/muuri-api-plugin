@@ -16,7 +16,7 @@
     <description>Jenkins plug-in that provides Muuri.js (https://muuri.dev).</description>
 
     <properties>
-        <revision>0.9.3</revision>
+        <revision>0.9.3-1</revision>
         <changelist>-SNAPSHOT</changelist>
         <jenkins.version>2.277.1</jenkins.version>
         <java.level>8</java.level>
