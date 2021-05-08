@@ -9,14 +9,14 @@
     </parent>
     <groupId>io.jenkins.plugins</groupId>
     <artifactId>muuri-api</artifactId>
-    <version>0.9.3-3-SNAPSHOT</version>
+    <version>${revision}${changelist}</version>
     <name>Muuri.js API plugin</name>
     <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
     <packaging>hpi</packaging>
     <description>Jenkins plug-in that provides Muuri.js (https://muuri.dev).</description>
 
     <properties>
-        <revision>0.9.3-2</revision>
+        <revision>0.9.3-3</revision>
         <changelist>-SNAPSHOT</changelist>
         <jenkins.baseline>2.249</jenkins.baseline>
         <jenkins.version>${jenkins.baseline}.1</jenkins.version>
