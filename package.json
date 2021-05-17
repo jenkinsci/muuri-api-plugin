@@ -1,5 +1,5 @@
 {
-  "name": "muuri",
+  "name": "muuri-plugin",
   "version": "0.9.3",
   "description": "Muuri.js Jenkins Plugin",
   "directories": {
