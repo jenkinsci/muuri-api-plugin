@@ -9,7 +9,7 @@
     </parent>
     <groupId>io.jenkins.plugins</groupId>
     <artifactId>muuri-api</artifactId>
-    <version>0.9.4-3-SNAPSHOT</version>
+    <version>0.9.4-2-SNAPSHOT</version>
     <name>Muuri.js API plugin</name>
     <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
     <packaging>hpi</packaging>
